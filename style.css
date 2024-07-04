@@ -199,3 +199,66 @@ span.old_price {
 .brg_pricee .btn {
   margin-top: 20px;
 }
+
+/* Footer */
+
+footer {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 180px;
+  padding: 20px;
+  text-align: left;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+  opacity: 0.5;
+}
+
+.logo-section {
+  text-align: left;
+}
+
+.logo {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-info span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.social-section .social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-section .social-icons img {
+  width: 20px;
+  height: 20px;
+}
